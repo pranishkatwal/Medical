@@ -1,0 +1,166 @@
+/*----------------------*/
+/*Teachers Desk*/
+.teacher-desk {
+    background: #f8fafc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*margin: 50px 0 50px 0;*/
+}
+.teacher-desk h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #ff9800;
+}
+
+.teacher-desk h1::after {
+    content: '';
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+#teacher-container{
+    cursor: pointer;
+    height: 350px;
+    width: 90%;
+}
+.teacher-front, .teacher-back{
+    height: 100%;
+    width: 90%;
+    /*transform-style: preserve-3d;*/
+    position: absolute;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s;
+    border-radius: 10px;
+}
+.teacher {
+    padding: 40px 10px 20px 0;
+    /*height: 100%;*/
+    background-color: #efefef;
+    /*border-radius: 0 0 10px 10px;*/
+}
+#teacher-container:hover{
+    cursor: pointer;
+    transform: rotateY(0deg);
+}
+.teacher-front{
+    background-color: #f8f8f8;
+    transform: perspective(600px) rotateY(0deg);
+}
+.teacher-back{
+    background-color: #262626;
+    transform: perspective(600px) rotateY(180deg);
+}
+#teacher-container:hover > .teacher-front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+#teacher-container:hover > .teacher-back{
+    transform: perspective(600px) rotateY(0deg);
+}
+.teacher2 {
+    padding: 40px 10px 20px 0;
+    background-color: #efefef;
+    border-radius: 0 0 10px 10px;
+}
+.teacher-top {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+.teacher-back-fotter{
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+    height: 100%;
+    color: white;
+    font-size: 25px;
+}
+.teacher-back-fotter2{
+    height: 100%;
+    color: white;
+    font-size: 25px;
+}
+.teacher-top2 {
+    background-color: #efefef;
+    color: #262626;
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #262626;
+}
+.teacher-top2 p{
+    padding-top: 15px;
+}
+.teacher p {
+    margin-top: 15px;
+}
+.teacher h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+.teacher h5 {
+    color: #262626;
+}
+.teacher img {
+    top: 55px;
+    position: absolute;
+    left: calc(50% - 60px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.teacher-img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
+
+.teacher h3 span {
+    font-size: 15px;
+    color: #333333;
+}
+
+/*Rotation*/
+/*
+.teacher-rot{
+    cursor: pointer;
+    height: 400px;
+    width: 90%;
+    !*position: absolute;*!
+    !*margin: auto;*!
+}
+!*.teacher-rot img{
+    height: 400px;
+    width: 400px;
+}*!
+.card-front, .card-back{
+    height: 100%;
+    width: 90%;
+    !*transform-style: preserve-3d;*!
+    position: absolute;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s;
+}
+.teacher-rot:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.card-front{
+    background-color: #f8f8f8;
+    transform: perspective(600px) rotateY(0deg);
+}
+.card-back{
+    background-color: #262626;
+    transform: perspective(600px) rotateY(180deg);
+}
+.teacher-rot:hover > .card-front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.teacher-rot:hover > .card-back{
+    transform: perspective(600px) rotateY(0deg);
+}
+*/
+
+/*Teachers Desk Ends*/
+/*------------------------*/

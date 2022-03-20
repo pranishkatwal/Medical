@@ -1,0 +1,93 @@
+/*Awards Section*/
+.award-desk {
+    padding: 50px 0 50px 0;
+    background: #f8f8f8;
+}
+/*Awards Section*/
+.about_point {
+    text-align: center;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+}
+
+.about_point .icon_conunt {
+    font-size: 30px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+    text-align: center;
+    color: #ffb606;
+}
+
+.about_point h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.about_point .counter {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #222;
+}
+/*Award Section Ends*/
+
+/*Featured Service*/
+.featured-service-icon {
+    border-radius: 50%;
+    height: 160px;
+    line-height: 150px;
+    margin: -94px auto -50px;
+    max-width: 160px;
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 0 0 rgba(158, 152, 153, 0.5);
+}
+.text-center {
+    text-align: center!important;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.featured-service-item {
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.featured_box .row {
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+    transform: translateY(-70px);
+}
+.featured-service-item h3 {
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.featured-service-item p {
+    display: block;
+    font-size: 17px;
+    color: #5a5a5a;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+.message-desk {
+    /*background: white;*/
+    padding: 50px 0 50px 0;
+}
+
+.message-box {
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #262626;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-100px);
+}
+
+.message-box-content {
+    padding: 10px 20px 10px 10px;
+    background: #ffffff;
+    margin-top: -7px;
+}
+
+.message-box-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 2px 20px 10px 2px;
+}
+
+.message-box p {
+    line-height: 22px;
+    font-family: "Bahamas Light";
+}
+
+.message-box-name {
+    text-align: center;
+    background: #262626;
+    border-radius: 10px 10px 0 0;
+}
+
+.message-box-name h3 {
+    /*padding-top: 15px;*/
+    padding-bottom: 15px;
+    font-size: 32px;
+    color: #ff9800;
+}
+
+.message-box-name h3::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 25%;
+    background: #ff9800;
+    margin-bottom: 10px;
+    /*margin-top: -15px;*/
+    margin-left: 37.5%;
+}
+
+/*---------*/
+.section_title1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    font-family: "Bauhaus 93";
+}
+
+.section_title1 span {
+    color: #ff9800;
+}
+
+.section_title1 span::after {
+    content: '';
+    background: red;
+    display: block;
+    height: 1px;
+    width: 270px;
+    margin-top: 3px;
+    margin-left: 80px;
+}

@@ -1,0 +1,94 @@
+/*Testonomials Start*/
+.testonomial-desk {
+    padding: 50px 0 50px 0;
+    /*background: #262626;*/
+    background-image: url("../../images/testimonials_background_2.jpg");
+    background-size: cover;
+
+}
+
+.testonomial-desk h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #ff9800;
+}
+
+.testonomial-desk h1::after {
+    content: '';
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+
+/*.testonomial-desk .row {
+    margin: 30px auto;
+}*/
+
+.profile {
+    padding: 70px 10px 20px;
+    background-color: #efefef;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 8px solid transparent;
+}
+
+.testonomial-user {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+.profile h3 span {
+    font-size: 15px;
+    color: #333333;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    border-left: 0.7rem solid #ffB606;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 50px;
+    font-family: "Times New Roman";
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size: 50px;
+    font-family: "Times New Roman";
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.profile:hover {
+    box-shadow: 0 0 15px 5px rgba(222, 222, 222, 0.3);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+/*Testonomials Ends*/

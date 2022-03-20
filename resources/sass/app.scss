@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bowlby+One+SC|Teko|Anton|Fondamento|Kaushan+Script|Lobster|Nosifer|Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:800|Montserrat:700,800,900&display=swap');
+
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~admin-lte/plugins/fontawesome-free/css/fontawesome.min.css';
+@import '~admin-lte/plugins/fontawesome-free/css/solid.min.css';
+@import '~admin-lte/plugins/fontawesome-free/css/brands.min.css';
+/*@import '~swiper/css/swiper.min.css';*/
+
+// Swiper / Vue-Material
+@import "~swiper/css/swiper.min.css";
+@import "~vue-material/dist/vue-material.min.css";
+
+//Animate CSS
+@import "~animate.css";
